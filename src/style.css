@@ -1,0 +1,121 @@
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: Lato, sans-serif;
+	background-color:#e4e4e4;
+	
+}
+
+input[type="text"] {
+	margin: 0;
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
+	font-family: Lato, sans-serif;
+	color: #888;
+}
+
+.wrapper {
+	display: block;
+	width: 30%;
+	margin: 10px auto 100px;
+	background-color:#fff;
+	padding:0px 10px 10px 10px;
+	border-radius:10px
+}
+
+
+ul li input[type=text] {
+	display: none;
+}
+
+
+
+h1 {	
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:0px;
+}
+
+ul {
+	margin: 2px;
+	padding: 5px;
+	
+}
+
+li * {
+	float: left;
+}
+input#newTask {
+	float: left;
+	width: 318px;
+}
+
+p > button:hover {
+	color: #0FC57C;
+}
+
+li {
+	overflow: hidden;
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+	margin: 0 10px;
+	position: relative;
+	top: 15px;
+}
+
+li > label {
+	font-size: 18px;
+	line-height: 40px;
+	width: 237px;
+	padding: 0 0 0 11px;
+}
+
+li > input[type="text"] {
+	width: 226px;
+}
+
+li > .delete:hover {
+	color: #CF2323;
+}
+
+
+#complete label {
+	text-decoration: line-through;
+	color: #888;
+}
+
+button {
+	background: none;
+	border: 0px;
+	color: #888;
+	font-size: 14px;
+	width: 60px;
+	margin: 10px 0 0;
+	font-family: Lato, sans-serif;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #333;
+}
+
+
+h3,label[for='newTask'] {
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 20px 0 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
